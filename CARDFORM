@@ -1,0 +1,41 @@
+/* CSS Stylesheet (style.css) */
+ 
+/* 1. Pengaturan Container Flexbox */
+.flex-container {
+ display: flex;                /* Mengaktifkan Flexbox */
+ flex-direction: row;          /* Menyusun elemen secara horizontal */
+ justify-content: center;      /* Posisikan item di tengah secara horizontal */
+ align-items: center;          /* Posisikan item di tengah secara vertikal */
+ gap: 20px;                    /* Jarak antar elemen flex item */
+ flex-wrap: wrap;              /* Membungkus item ke baris baru jika layar sempit */
+ padding: 40px;
+ background-color: lab(77.73% 45.34 -22.66);
+}
+ 
+/* 2. Pengaturan Flex Item (Card) */
+.card1 {
+ background-color: hwb(320 25% 0%);
+ border: 15px solid oklab(34.936% 0.00628 -0.00165);
+ border-radius: 8px;
+ padding: 20px;
+ width: 250px;
+ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+ text-align: center;
+}
+ .card2 {
+ background-color: hwb(0 20% 4%);
+ border: 15px solid oklab(34.973% 0.00675 -0.0033);
+ border-radius: 8px;
+ padding: 20px;
+ width: 250px;
+ text-align:center;
+ }
+ .card3 {
+ background-color: lab(64.44% 5.53 -50.86);
+ border: 15px solid oklab(40.527% 0.00476 -0.00201);
+ border-radius: 8px;
+ padding: 20px;
+ width: 250px;
+ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+ text-align: center;
+} 
